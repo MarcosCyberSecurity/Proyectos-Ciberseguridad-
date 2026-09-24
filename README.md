@@ -22,7 +22,7 @@ sudo ls -l /proc/1509/exe
 sudo file /usr/lib/mate-panel/wnck-applet
 ```
 
-![Captura del terminal](consola.png)
+![Captura del terminal](consola.png.png)
 
 Al evaluar la salida, el análisis revela dos tipos de comportamiento críticos para la auditoría:
 * **Sockets Unix Locales (`u_str`, `u_dgr`):** Se identifican procesos legítimos del sistema operando internamente, destacando `wnck-applet` bajo el **PID 1509**, junto a servicios esenciales como `systemd` (PID 1132) y `dbus-daemon` (PID 1387).
