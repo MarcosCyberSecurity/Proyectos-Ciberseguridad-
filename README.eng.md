@@ -23,7 +23,8 @@ sudo ls -l /proc/1509/exe
 sudo file /usr/lib/mate-panel/wnck-applet
 ```
 
-![[Pasted image 20260812164415.png]]
+<img width="937" height="801" alt="image" src="https://github.com/user-attachments/assets/d7b370a7-abdf-4842-ae92-a97426782a25" />
+
 
 When evaluating the output, the analysis reveals two types of behaviour that are critical to the audit:
 * **Local Unix sockets (`u_str`, `u_dgr`):** Legitimate system processes operating internally are identified, notably `wnck-applet` under **PID 1509**, alongside essential services such as `systemd` (PID 1132) and `dbus-daemon` (PID 1387).
