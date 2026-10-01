@@ -36,7 +36,8 @@ ls -l /var/log/nginx/
 
 Nos conectamos al servidor web de forma local utilizando la IP de Loopback `127.0.0.1` en el puerto estándar `80`. La interfaz fotorrealista confirma que el servidor responde de manera correcta:
 
-![[Pasted image 20260804171653.png]]
+![Captura del Laboratorio 2](img/Captura%20de%20pantalla%202026-10-01%20180718.png)
+
 
 ### 4. Análisis e Interpretación de los Logs de Acceso en Tiempo Real
 Para validar qué ocurre por detrás cada vez que un usuario interactúa con la web, ejecutamos el comando de seguimiento interactivo:
