@@ -39,7 +39,8 @@ ls -l /var/log/nginx/
 
 We connect to the web server locally using the loopback IP address `127.0.0.1` on the standard port `80`. The photorealistic interface confirms that the server is responding correctly:
 
-![[Pasted image 20260804171653.png]]
+![Lab 2 Screenshot](img/Captura%20de%20pantalla%202026-10-01%20180718.png)
+
 
 
 ### 4. Analysis and Interpretation of Real-Time Access Logs
